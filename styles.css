@@ -1,4 +1,13 @@
+.carousel-item {
+    background-color: black;
+}
+
+.carousel-item img {
+    opacity: 50%;
+}
+
 .carousel-caption {
+
     top: 50%;
     /* bottom: auto; */
     transform: translateY(-50%);
@@ -9,14 +18,15 @@
 
 
 /* Sm/ Small Device  */
-@media (max-width: 576px) {
-    .example h1 {
+@media (max-width: 766px) {
+    .example-1 {
+
         font-size: 24px;
         margin-bottom: 0px;
         padding-bottom: 0px;
     }
 
-    .example p {
+    .example-2 {
         font-size: 12px;
         margin: 0px;
         padding-bottom: 10px;
@@ -24,11 +34,32 @@
 
     .carousel-button {
         margin: 0px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
         padding-top: 3px;
         padding-bottom: 3px;
     }
 }
 
 /* Sm/ Small Device  */
+@media (min-width: 768px) {
+    .carousel-button {
+        font-size: 24px;
+        margin: 0px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+}
+
+
+
+/* .example-1 {
+
+        font-size: 24px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+} */
